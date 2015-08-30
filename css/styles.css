@@ -1,0 +1,222 @@
+<style>
+
+    /*
+    Colors:
+    Social Media Buttons: #4c4c4c
+    Background: #fafcfc
+    Navigation Button: #333333
+    Navigation Button hover: #ff7400
+    */
+
+
+    /* STYLES ACROSS MULTIPLE PAGES */
+
+    html {
+        margin: 0;
+        padding: 0;
+        background-color: #fafcfc;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;   
+    }
+
+    .center {
+        text-align: center;
+
+    }
+
+    .mono, h1, h2 {
+        font-family: courier, monospace;
+    }
+
+    #GHIcon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        background-image: url("../imgs/Github Icon gray.svg");
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+
+    #GHIcon:hover {
+        background-image: url("../imgs/Github Icon.svg");
+    }
+
+    #FBIcon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        background-image: url("../imgs/Facebook Icon gray.svg");
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+
+    #FBIcon:hover {
+        background-image: url("../imgs/Facebook Icon.svg");
+    }
+
+
+
+    /* INDEX PAGE STYLES */
+
+    #aboutButton {
+        padding-right: 20px;
+    }
+
+    #contactButton {
+        padding-left: 20px;
+        background: none;
+        border: none;
+        text-decoration: none;
+        outline: none;
+    }
+
+    #homeIcon {
+        /*margin: 10px 0 5px 0;*/
+        margin-top: 10px;
+    }
+
+    #headshot {
+        margin-top: 25px;
+    }
+
+    
+
+    
+
+
+    
+
+    .navButton {
+        font-size: 25px;
+        color: #333333;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        -ms-transition: all .5s;
+    }
+
+    .navButton:hover {
+        color: #ff7400;
+        text-decoration: none;
+    }
+
+    #name {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+
+    #title {
+        font-size: 20px;
+    }
+
+    .SMIcons {
+        float: bottom;
+        bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    
+
+
+    #aboutTitle {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    #backplate {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        background-color: #fafcfc;
+        border-radius: 15px;
+    }
+
+    .barImg {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        background-image: url("../imgs/Yleisradio's workshop laboratory 2.png");
+        background-repeat: no-repeat;
+        background-size: 1400px auto;
+
+    }
+
+    #barImg1 {
+        background-position: center -200px;
+        height: 200px;
+    }
+
+    #barImg5 {
+        background-position: center -400px;
+        height: 100px;
+    }
+
+    #barImg2 {
+        background-position: center -500px;
+        height: 100px;
+    }
+
+    #barImg3 {
+        background-position: center -600px;
+        height: 100px;
+    }
+
+    #barImg4 {
+        background-position: center -700px;
+        height: 100px;
+    }
+
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+
+    .softTitle {
+        font-size: 25px;
+    }
+
+    #SMI1 {
+        position: fixed;
+    }
+
+    #SMI2 {
+        margin-top: 50px;
+    }
+
+    #softDivs {
+        margin: 0 10px;
+    }
+
+    #aboutMe {
+        padding: 0 50px;
+        margin-top: 25px;
+    }
+
+    #headshot {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+</style>
