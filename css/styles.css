@@ -1,6 +1,19 @@
 <style>
 
     /*
+    William Case
+    8.30.2015
+
+    personal-website
+    styles.css
+
+
+    CSS styles linked to by:
+    index.html
+    about.html
+
+
+
     Colors:
     Social Media Buttons: #4c4c4c
     Background: #fafcfc
@@ -27,11 +40,20 @@
 
     .center {
         text-align: center;
-
     }
 
     .mono, h1, h2 {
         font-family: courier, monospace;
+    }
+
+    /* Social Media Icons */
+    .SMIcons {
+        float: bottom;
+        bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
     }
 
     #GHIcon {
@@ -62,6 +84,14 @@
         background-image: url("../imgs/Facebook Icon.svg");
     }
 
+    #SMI1 {
+        position: fixed;
+    }
+
+    #SMI2 {
+        margin-top: 50px;
+    }
+
 
 
     /* INDEX PAGE STYLES */
@@ -79,7 +109,6 @@
     }
 
     #homeIcon {
-        /*margin: 10px 0 5px 0;*/
         margin-top: 10px;
     }
 
@@ -87,13 +116,8 @@
         margin-top: 25px;
     }
 
-    
 
-    
-
-
-    
-
+    /* Navigation Buttons */
     .navButton {
         font-size: 25px;
         color: #333333;
@@ -120,33 +144,38 @@
         font-size: 20px;
     }
 
-    .SMIcons {
-        float: bottom;
-        bottom: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        text-align: center;
-
-
-    }
-
     
-
-
+    /* ABOUT PAGE STYLES */
+    
     #aboutTitle {
         font-size: 50px;
         margin-top: 20px;
     }
 
-    #backplate {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-        background-color: #fafcfc;
-        border-radius: 15px;
+    .container-fluid {
+        margin: 0;
+        padding: 0;
     }
 
+    .softTitle {
+        font-size: 25px;
+    }
+
+
+    #softDivs {
+        margin: 0 10px;
+    }
+
+    #aboutMe {
+        padding: 0 50px;
+        margin-top: 25px;
+    }
+
+    #headshot {
+        margin-top: 15px;
+    }
+
+    /* Bar Image Divider */
     .barImg {
         margin: 0;
         padding: 0;
@@ -156,7 +185,6 @@
         background-image: url("../imgs/Yleisradio's workshop laboratory 2.png");
         background-repeat: no-repeat;
         background-size: 1400px auto;
-
     }
 
     #barImg1 {
@@ -183,40 +211,6 @@
         background-position: center -700px;
         height: 100px;
     }
-
-    .container-fluid {
-        margin: 0;
-        padding: 0;
-    }
-
-    .softTitle {
-        font-size: 25px;
-    }
-
-    #SMI1 {
-        position: fixed;
-    }
-
-    #SMI2 {
-        margin-top: 50px;
-    }
-
-    #softDivs {
-        margin: 0 10px;
-    }
-
-    #aboutMe {
-        padding: 0 50px;
-        margin-top: 25px;
-    }
-
-    #headshot {
-        margin-top: 15px;
-    }
-
-
-
-
 
 
 </style>
